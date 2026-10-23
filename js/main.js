@@ -16,10 +16,36 @@ if (toggle && nav) {
   document.addEventListener('keydown', e => {
     if (e.key === 'Escape') {
       nav.classList.remove('is-open');
-      toggle.setAttribute('aria-expanded','false');
-      toggle.setAttribute('aria-label','Abrir menu');
+      toggle.setAttribute('aria-expanded', 'false');
+      toggle.setAttribute('aria-label', 'Abrir menu');
     }
   });
 }
 const year = document.querySelector('#year');
-if(year) year.textContent = new Date().getFullYear();
+if (year) year.textContent = new Date().getFullYear();
+
+
+/* ===================================
+   MENU COM EFEITO AO FAZER SCROLL
+=================================== */
+
+const header = document.querySelector(
+  ".home-page .site-header"
+);
+
+if (header) {
+  function atualizarHeader() {
+    if (window.scrollY > 60) {
+      header.classList.add("scrolled");
+    } else {
+      header.classList.remove("scrolled");
+    }
+  }
+
+  window.addEventListener("scroll", atualizarHeader, {
+    passive: true
+  });
+
+  // Verifica também quando a página é carregada
+  atualizarHeader();
+}
