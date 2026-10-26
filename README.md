@@ -21,3 +21,7 @@
 ## Ficheiros
 
 `index.html`, `servicos.html`, `projetos.html`, `sobre.html`, `contactos.html`, `css/style.css`, `css/responsive.css`, `js/main.js`, `assets/images/`.
+
+
+## Contactos V2
+Página com formulário exclusivamente local: prepara uma mensagem de orçamento para copiar e enviar manualmente no Instagram. Não existem envios, bases de dados ou armazenamento. Para publicação definitiva, validar contactos e conteúdos com o cliente.
