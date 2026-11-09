@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 650 620" role="img" aria-labelledby="mapTitle mapDesc">
+<title id="mapTitle">Mapa ilustrativo de Portugal com Cantanhede em destaque</title>
+<desc id="mapDesc">Silhueta aproximada de Portugal continental, assinalando Cantanhede na região Centro. Não é um mapa de navegação nem identifica um imóvel.</desc>
+<defs>
+ <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse"><path d="M42 0H0V42" fill="none" stroke="#20424a" stroke-width=".7" opacity=".5"/></pattern>
+ <linearGradient id="land" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#17323a"/><stop offset="1" stop-color="#0a181e"/></linearGradient>
+ <filter id="glow" x="-200%" y="-200%" width="500%" height="500%"><feGaussianBlur stdDeviation="12"/></filter>
+ </defs>
+ <rect width="650" height="620" fill="#080f14"/>
+ <rect width="650" height="620" fill="url(#grid)"/>
+ <text x="36" y="48" fill="#72919c" font-family="Arial,sans-serif" font-size="13" letter-spacing="4">PORTUGAL / REGIÃO CENTRO</text>
+ <path d="M36 60H195" stroke="#00d7e8" opacity=".52"/>
+ <polygon points="177.6,70.2 196.3,70.2 208.4,63.1 241.4,58.1 267.8,72.2 303.0,70.2 330.5,73.2 363.5,69.2 392.1,75.3 426.2,81.3 428.4,111.6 464.7,101.5 453.7,128.8 441.6,149.0 422.9,167.2 405.3,189.4 409.7,219.7 402.0,248.0 380.0,280.3 381.1,316.7 349.2,343.9 330.5,370.2 363.5,388.4 363.5,421.7 352.5,441.9 339.3,467.1 332.7,494.4 336.0,542.9 341.5,563.1 303.0,551.0 253.5,553.0 215.0,555.0 176.5,561.1 167.7,538.9 180.9,516.6 189.7,496.4 188.6,477.2 179.8,460.1 178.7,436.9 162.2,419.7 141.3,403.5 122.6,391.4 112.7,389.4 121.5,372.2 129.2,352.0 119.3,321.7 129.2,298.5 154.5,278.3 176.5,256.1 184.2,234.9 194.1,211.6 189.7,186.4 197.4,161.1 194.1,142.9 182.0,120.7 186.4,100.5 179.8,85.4" fill="#00d7e8" opacity=".12" filter="url(#glow)"/>
+ <polygon points="177.6,70.2 196.3,70.2 208.4,63.1 241.4,58.1 267.8,72.2 303.0,70.2 330.5,73.2 363.5,69.2 392.1,75.3 426.2,81.3 428.4,111.6 464.7,101.5 453.7,128.8 441.6,149.0 422.9,167.2 405.3,189.4 409.7,219.7 402.0,248.0 380.0,280.3 381.1,316.7 349.2,343.9 330.5,370.2 363.5,388.4 363.5,421.7 352.5,441.9 339.3,467.1 332.7,494.4 336.0,542.9 341.5,563.1 303.0,551.0 253.5,553.0 215.0,555.0 176.5,561.1 167.7,538.9 180.9,516.6 189.7,496.4 188.6,477.2 179.8,460.1 178.7,436.9 162.2,419.7 141.3,403.5 122.6,391.4 112.7,389.4 121.5,372.2 129.2,352.0 119.3,321.7 129.2,298.5 154.5,278.3 176.5,256.1 184.2,234.9 194.1,211.6 189.7,186.4 197.4,161.1 194.1,142.9 182.0,120.7 186.4,100.5 179.8,85.4" fill="url(#land)" stroke="#56828a" stroke-width="2.2" stroke-linejoin="round"/>
+ <path d="M210.6 225.2 L464 216" stroke="#00d7e8" stroke-width="1.7" stroke-dasharray="5 7" opacity=".85"/>
+ <circle cx="210.6" cy="225.2" r="27" fill="none" stroke="#00d7e8" stroke-width="1.6" opacity=".5"/>
+ <circle cx="210.6" cy="225.2" r="15" fill="#00d7e8" opacity=".20"/>
+ <circle cx="210.6" cy="225.2" r="6.5" fill="#63f4ff" stroke="#071015" stroke-width="2"/>
+ <g font-family="Arial,sans-serif"><text x="472" y="208" fill="#eaf9fb" font-size="23" font-weight="700">CANTANHEDE</text><text x="472" y="232" fill="#89b3bd" font-size="13" letter-spacing="1.5">REGIÃO CENTRO</text></g>
+ <text x="36" y="577" fill="#64838c" font-family="Arial,sans-serif" font-size="12">LOCALIZAÇÃO APROXIMADA · ILUSTRAÇÃO NÃO CARTOGRÁFICA</text>
+ <path d="M36 592H614" stroke="#1f444c" stroke-width="1"/>
+</svg>
