@@ -1,0 +1,35 @@
+/* PRIME AUTO STUDIO — Fotografias reais (Fase 3)
+   Camada isolada: não altera o sistema de navegação, o mapa nem o lightbox. */
+.home-page .hero-v2 .hero-image {
+  background-image: linear-gradient(90deg,rgba(0,5,9,.98) 0%,rgba(0,7,12,.88) 39%,rgba(0,7,12,.24) 100%), url('../assets/images/carros/mclaren-exterior.webp');
+  background-position: center, 63% 48%;
+  background-size: cover;
+}
+/* Na versão inicial o CSS fixava fotografias por posição; passar a usar
+   as URLs declaradas em cada cartão da homepage. */
+.home-page .service-showcase .visual-service::before {
+  background-image: var(--card-photo);
+}
+.services-page .services-hero-image {
+  background-image: linear-gradient(90deg,rgba(2,7,12,.95),rgba(3,9,14,.78) 43%,rgba(3,9,14,.19)),linear-gradient(0deg,#070b10 0%,transparent 35%),url('../assets/images/carros/mclaren-frente.webp');
+  background-position: center, center, 63% 45%;
+  background-size: cover;
+}
+.home-page .gallery-showcase img,
+.home-page .story-photo img,
+.services-page .service-feature-media img {
+  object-fit: cover;
+}
+@media (max-width: 680px) {
+  .home-page .hero-v2 .hero-image {
+    background-image: linear-gradient(90deg,rgba(0,5,9,.94),rgba(0,7,12,.60)),url('../assets/images/carros/mclaren-exterior.webp');
+    background-position: center, 57% center;
+  }
+  .services-page .services-hero-image {
+    background-image: linear-gradient(90deg,rgba(2,7,12,.91),rgba(2,7,12,.53)),linear-gradient(0deg,#070b10,transparent 30%),url('../assets/images/carros/mclaren-frente.webp');
+    background-position: center, center, 55% center;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .home-page .service-showcase .visual-service::before { transition:none; }
+}
