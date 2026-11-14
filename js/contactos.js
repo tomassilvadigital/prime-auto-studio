@@ -1,4 +1,4 @@
-// Formulário de demonstração: prepara texto localmente, sem enviar dados.
+// Formulário local: prepara uma mensagem sem recolha nem envio de dados para servidores.
 (() => {
   const form = document.querySelector('#quote-form');
   const result = document.querySelector('#quote-result');
@@ -34,7 +34,7 @@ Obrigado!`;
       status.textContent = 'Mensagem copiada! Agora podes colá-la no Instagram.';
     } catch (_) {
       output.focus(); output.select();
-      status.textContent = 'Selecionámos a mensagem. Copia-a com Ctrl+C (ou Copiar no telemóvel).';
+      status.textContent = 'Não foi possível copiar automaticamente. O texto está selecionado: utiliza Ctrl+C ou a opção Copiar do dispositivo.';
     }
   });
 })();
