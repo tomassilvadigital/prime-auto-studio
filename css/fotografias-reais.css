@@ -10,6 +10,13 @@
 .home-page .service-showcase .visual-service::before {
   background-image: var(--card-photo);
 }
+/* Correção: o caminho url() declarado em style="" dentro do HTML era resolvido
+   a partir da pasta css/ e as fotografias não carregavam. Os caminhos passam a
+   estar aqui, relativos a este ficheiro. */
+.home-page .service-showcase .visual-service[href$="#ppf"] { --card-photo: url('../assets/images/carros/aplicacao-pelicula.webp'); }
+.home-page .service-showcase .visual-service[href$="#wrapping"] { --card-photo: url('../assets/images/carros/mclaren-portas.webp'); }
+.home-page .service-showcase .visual-service[href$="#detailing"] { --card-photo: url('../assets/images/carros/chrysler-300c.jpg'); }
+.home-page .service-showcase .visual-service[href$="#personalizacao"] { --card-photo: url('../assets/images/carros/porsche-oficina.webp'); }
 .services-page .services-hero-image {
   background-image: linear-gradient(90deg,rgba(2,7,12,.95),rgba(3,9,14,.78) 43%,rgba(3,9,14,.19)),linear-gradient(0deg,#070b10 0%,transparent 35%),url('../assets/images/carros/mclaren-frente.webp');
   background-position: center, center, 63% 45%;
